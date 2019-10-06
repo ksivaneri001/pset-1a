@@ -113,3 +113,7 @@ td {
 .grey {
 	background-color: grey;
 }
+
+td:hover {
+	background-color: orange;
+}
