@@ -1,4 +1,115 @@
-h1 {
-	font-family: Arial;
-	color: lightblue;
+* {
+	background-color: lightblue;
+	font-family: trebuchet ms;
+}
+
+.page-title {
+	color: #3533b5;
+}
+
+h2 {
+	color: #273d7d;
+}
+
+a {
+	color: #6b6b6b;
+}
+
+a:hover {
+	color: purple;
+}
+
+img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+img[src="images/addition.png"] {
+	height: 15%;
+	width: 15%;
+}
+
+img[src="images/subtraction.png"] {
+	height: 22.5%;
+	width: 22.5%;
+}
+
+header {
+	text-align: center;
+}
+
+#header-home {
+	display: inline;
+	margin-right: 25px;
+}
+
+#header-addition {
+	display: inline;
+	margin-right: 25px;
+}
+
+#header-subtraction {
+	display: inline;
+}
+
+#header-multiplication {
+	display: inline;
+	margin-left: 25px;
+}
+
+#header-division {
+	display: inline;
+	margin-left: 25px;
+}
+
+div > img {
+	display: block;
+	background-color: lightblue;
+	height: 10%;
+	width: 10%;
+}
+
+.remainder {
+	font-style: italic;
+}
+
+.scroll {
+	font-size: 24px;
+}
+
+.invisible {
+	visibility: hidden;
+}
+
+ol {
+	font-weight: bold;
+}
+
+ul > li {
+	color: #616060;
+	font-weight: normal;
+}
+
+table {
+	border: 2px solid;
+	margin-left: auto;
+	margin-right: auto;
+	border-collapse: collapse;
+}
+
+th, td {
+	border: 1px solid;
+}
+
+th {
+	background-color: lightgrey;
+}
+
+td {
+	background-color: white;
+}
+
+.grey {
+	background-color: grey;
 }
